@@ -31,26 +31,34 @@
   /* Opacity */
   --op-medium: 0.6;
 
+  /* Main Colors */
+  --color-primary: #85CB33;
+  --color-secondary: #EFFFC8;
+  --color-accent: #21b897;
+  --color-success: #00FF85;
+  --color-warning: #FFE600;
+  --color-error: #FF1744;
+
   /* Base Colors */
-  --color-steingrau: hsl(42deg 3% 55% / 60%);
-  --color-lichtgrau: hsl(100deg 3% 77% / 100%);
-  --color-hellgrau: #BBBAB7;
-  --color-blaugrau: #82899A;
-  --color-pink: #d16;
-  --color-green: #10CFA3;
-  --color-blue: #28C0DE;
-  --color-darkblue: #047A91;
-  --color-yellow: #DECC28;
-  --color-light: #E6DED1;
-  --color-lightest: #fff;
-  --color-lighten: rgb(255 255 255 / 20%);
-  --color-lighten-strong: rgb(255 255 255 / 50%);
-  --color-dark: #57544F;
-  --color-darker: #000;
-  --color-darkest: #000;
-  --color-darken: rgb(0 0 0 / 20%);
-  --color-darken-strong: rgb(0 0 0 / 70%);
-  --color-darken-light: rgb(20 20 0 / 5%);
+   --color-steingrau: hsl(42deg 30% 60% / 90%);
+  --color-lichtgrau: hsl(200deg 20% 96% / 100%);
+  --color-hellgrau: #F5F5F5;
+  --color-blaugrau: var(--color-secondary);        
+  --color-pink: var(--color-accent);            
+  --color-green: var(--color-success);           
+  --color-blue: var(--color-primary); ;            
+  --color-darkblue: #0A1A4A;        
+  --color-yellow: var(--color-warning);          
+  --color-light: #FFFBEA;         
+  --color-lightest: #FFFFFF;
+  --color-lighten: rgb(255 255 255 / 60%);
+  --color-lighten-strong: rgb(255 255 255 / 85%);
+  --color-dark: #181818;
+  --color-darker: #101010;
+  --color-darkest: #000000;
+  --color-darken: rgb(0 0 0 / 40%);
+  --color-darken-strong: rgb(0 0 0 / 90%);
+  --color-darken-light: rgb(30 30 0 / 18%);
 
   /* Functional Colors */
   --interaction-color: var(--color-dark);
